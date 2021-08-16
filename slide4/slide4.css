@@ -41,13 +41,13 @@
   top: 493px;
   width: 791px;
   height: 114px;
-  animation: fadeInLeft 0.8s;
+  animation: fadeInLeft 0.9s;
   animation-delay: 2.5s;
   animation-fill-mode: both;
   z-index: 2;
 }
 
-.s4_5 {
+.s4_5_1 {
   position: absolute;
   left: 916px;
   top: 462px;
@@ -55,6 +55,19 @@
   height: 151px;
   animation: fadeInRight 1s;
   animation-delay: 2.5s;
+  animation-fill-mode: both;
+  z-index: 3;
+}
+
+
+.s4_5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 360px;
+  height: 151px;
+  animation: flashInLoop 3s infinite;
+  animation-delay: 5.5s;
   animation-fill-mode: both;
   z-index: 3;
 }
@@ -77,7 +90,7 @@
   top: 647px;
   width: 286px;
   height: 286px;
-  animation: fadeIn 3s;
+  animation: fadeIn 1s;
   animation-delay: 4.5s;
   animation-fill-mode: both;
   overflow: hidden;
@@ -90,9 +103,9 @@
   top: 0px;
   width: 286px;
   height: 286px;
-  animation: rotateInLoop 10s infinite linear;
+/*   animation: rotateInLoop 10s infinite linear;
   animation-delay: 0.0s;
-  animation-fill-mode: both;
+  animation-fill-mode: both; */
   z-index: 2;
 }
 
@@ -103,9 +116,38 @@
   width: 171px;
   height: 86px;
   animation: zoomIn 1s;
-  animation-delay: 5.5s;
+  animation-delay: 4.5s;
   animation-fill-mode: both;
   z-index: 2;
+}
+
+@-webkit-keyframes flashInLoop {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes flashInLoop {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0.5;
+  }
+}
+.animate__flashInLoop {
+  -webkit-animation-name: flashInLoop;
+  animation-name: flashInLoop;
 }
 
 @-webkit-keyframes rotateInLoop {

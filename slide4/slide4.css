@@ -66,7 +66,7 @@
   top: 0px;
   width: 360px;
   height: 151px;
-  animation: flashInLoop 3s infinite;
+  animation: flashInLoop 3s 2;
   animation-delay: 5.5s;
   animation-fill-mode: both;
   z-index: 3;

@@ -10,90 +10,192 @@
   z-index: 1;
 }
 
-.s2_2 {
+.s2_2_wrap {
   position: absolute;
-  left: 61px;
-  top: 121px;
-  width: 151px;
-  height: 211px;
-  animation: fadeInRight 1.5s;
+  left: 278px;
+  top: 61px;
+  width: 810px;
+  height: 321px;
+  animation: zoomIn 1s;
   animation-delay: 0.5s;
   animation-fill-mode: both;
   z-index: 3;
 }
 
+.s2_2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 810px;
+  height: 321px;
+  animation: growUp 1s;
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
+  z-index: 3;
+}
+
+.s2_3_wrap {
+  position: absolute;
+  left: 350px;
+  top: 323px;
+  width: 664px;
+  height: 608px;
+  animation: zoomOut 0.5s;
+  animation-delay: 6s;
+  animation-fill-mode: both;
+  z-index: 4;
+}
+
 .s2_3 {
   position: absolute;
-  left: 14px;
-  top: 122px;
-  width: 223px;
-  height: 223px;
-  animation: stampIn 0.1s;
-  animation-delay: 2s;
+  left: 0px;
+  top: 0px;
+  width: 664px;
+  height: 608px;
+  animation: zoomIn 1s;
+  animation-delay: 4s;
   animation-fill-mode: both;
-  z-index: 2;
+  z-index: 4;
 }
 
 .s2_4 {
   position: absolute;
-  left: 246px;
-  top: 160px;
-  width: 850px;
-  height: 51px;
-  animation: revealHorizontal 2.5s;
-  clip: rect(0px,0px,100px,0px);
-  animation-delay: 3s;
-  animation-fill-mode: both;
-  z-index: 2;
-}
-
-.s2_5 {
-  position: absolute;
-  left: 498px;
-  top: 132px;
-  width: 328px;
-  height: 68px;
-  animation: fadeIn 1s;
-  animation-delay: 3.5s;
-  animation-fill-mode: both;
-  z-index: 2;
-}
-
-.s2_6 {
-  position: absolute;
-  left: 246px;
-  top: 284px;
-  width: 415px;
-  height: 49px;
-  animation: revealHorizontalSmall 1s;
+  left: 252px;
+  top: 953px;
+  width: 860px;
+  height: 32px;
+  animation: revealHorizontal 1s;
   clip: rect(0px,0px,100px,0px);
   animation-delay: 5s;
   animation-fill-mode: both;
   z-index: 2;
 }
 
+.s2_5 {
+  position: absolute;
+  left: 98px;
+  top: 323px;
+  width: 1174px;
+  height: 606px;
+  animation: zoomIn 0.5s;
+  animation-delay: 6s;
+  animation-fill-mode: both;
+  z-index: 5;
+}
+
+.s2_6 {
+  position: absolute;
+  width: 1366px;
+  height: 1024px;
+  display: none;
+  z-index: 10;
+}
+
 .s2_7 {
   position: absolute;
-  left: 678px;
-  top: 264px;
-  width: 595px;
-  height: 75px;
-  animation: fadeIn 1s;
-  animation-delay: 5.8s;
-  animation-fill-mode: both;
-  z-index: 2;
+  width: 1366px;
+  height: 1024px;
+  display: none;
+  z-index: 10;
 }
 
 .s2_8 {
   position: absolute;
-  left: 122px;
-  top: 399px;
-  width: 1120px;
-  height: 575px;
-  animation: zoomIn 1s;
-  animation-delay: 7s;
+  width: 1366px;
+  height: 1024px;
+  display: none;
+  z-index: 10;
+}
+
+.s2_9 {
+  position: absolute;
+  width: 1366px;
+  height: 1024px;
+  display: none;
+  z-index: 10;
+}
+
+.s2_10 {
+  position: absolute;
+  width: 1366px;
+  height: 1024px;
+  display: none;
+  z-index: 10;
+}
+
+.pop1 {
+  position: absolute;
+  left: 740px;
+  top: 347px;
+  width: 295px;
+  height: 125px;
+  animation: revealHorizontalSmall 0.1s;
+  clip: rect(0px,0px,130px,0px);
+  animation-delay: 6.5s;
   animation-fill-mode: both;
-  z-index: 2;
+  z-index: 8;
+}
+
+.pop2 {
+  position: absolute;
+  left: 999px;
+  top: 552px;
+  width: 295px;
+  height: 125px;
+  animation: revealHorizontalSmall 0.1s;
+  clip: rect(0px,0px,130px,0px);
+  animation-delay: 6.5s;
+  animation-fill-mode: both;
+  z-index: 8;
+}
+
+.pop3 {
+  position: absolute;
+  left: 879px;
+  top: 774px;
+  width: 295px;
+  height: 125px;
+  animation: revealHorizontalSmall 0.1s;
+  clip: rect(0px,0px,130px,0px);
+  animation-delay: 6.5s;
+  animation-fill-mode: both;
+  z-index: 8;
+}
+
+.pop4 {
+  position: absolute;
+  left: 169px;
+  top: 774px;
+  width: 295px;
+  height: 125px;
+  animation: revealHorizontalSmall 0.1s;
+  clip: rect(0px,0px,130px,0px);
+  animation-delay: 6.5s;
+  animation-fill-mode: both;
+  z-index: 8;
+}
+
+.pop5 {
+  position: absolute;
+  left: 70px;
+  top: 552px;
+  width: 295px;
+  height: 125px;
+  animation: revealHorizontalSmall 0.1s;
+  clip: rect(0px,0px,130px,0px);
+  animation-delay: 6.5s;
+  animation-fill-mode: both;
+  z-index: 8;
+}
+
+.close1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 1024px;
+  display: none;
+  z-index: 12;
 }
 
 
@@ -242,23 +344,23 @@
 
 @-webkit-keyframes revealHorizontalSmall {
   0% {
-    clip: rect(0px,0px,100px,0px);
+    clip: rect(0px,0px,130px,0px);
 	opacity: 1;
   }
   
   100% {
-    clip: rect(0px,450px,100px,0px);
+    clip: rect(0px,300px,130px,0px);
 	opacity: 1;
   }
 }
 @keyframes revealHorizontalSmall {
   0% {
-    clip: rect(0px,0px,100px,0px);
+    clip: rect(0px,0px,130px,0px);
 	opacity: 1;
   }
   
   100% {
-    clip: rect(0px,450px,100px,0px);
+    clip: rect(0px,300px,130px,0px);
 	opacity: 1;
   }
 }
@@ -311,4 +413,21 @@
 .buzzIn {
   -webkit-animation-name: buzzIn;
   animation-name: buzzIn;
+}
+
+@keyframes growUp {
+  0% {
+	transform: scale(1);
+	top: 0px;
+  }
+  
+  100% {
+	transform: scale(0.7);
+	top: -50px;
+  }
+}
+
+.growUp {
+  -webkit-animation-name: growUp;
+  animation-name: growUp;
 }
